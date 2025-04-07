@@ -4,16 +4,11 @@
 #include "ClapTrap.hpp"
 class FragTrap:public ClapTrap{
     public:
-		/* Constructors & Destructors */
 		FragTrap(void);
 		FragTrap(std::string const &name);
 		FragTrap(FragTrap const &copy);
-		~FragTrap(void);
-
-		/* Basic Operators */
+		~FragTrap(void);		
 		FragTrap	&operator=(FragTrap const &copy);
-
-		/* Main Member Functions */
 		void	highFivesGuys(void);
 };
 #endif
